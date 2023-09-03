@@ -1,6 +1,6 @@
 ## Publish
 
-The Publish Plugin decouples the timing of data updates in the [QOR Admin](http://github.com/simonedbarber/admin) interface from the display of data on the frontend of the website which [QOR Admin](http://github.com/simonedbarber/admin) is backing. Effectively, a [GORM](https://github.com/gorm.io/gorm) model can be withheld from frontend display until it is "published".
+The Publish Plugin decouples the timing of data updates in the [QOR Admin](http://github.com/simonedbarber/admin) interface from the display of data on the frontend of the website which [QOR Admin](http://github.com/simonedbarber/admin) is backing. Effectively, a [GORM](https://gorm.io/gorm) model can be withheld from frontend display until it is "published".
 
 [![GoDoc](https://godoc.org/github.com/simonedbarber/publish?status.svg)](https://godoc.org/github.com/simonedbarber/publish)
 

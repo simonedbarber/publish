@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gorm.io/gorm"
 	"github.com/simonedbarber/admin"
 	"github.com/simonedbarber/qor"
 	"github.com/simonedbarber/qor/resource"
 	"github.com/simonedbarber/qor/utils"
 	"github.com/simonedbarber/worker"
+	"gorm.io/gorm"
 
 	"reflect"
 )

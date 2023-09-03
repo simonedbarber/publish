@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gorm.io/gorm"
+	"gorm.io/gorm"
 )
 
 // LoggerInterface logger interface used to print publish logs
