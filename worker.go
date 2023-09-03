@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/roles"
-	"github.com/qor/worker"
+	"github.com/simonedbarber/admin"
+	"github.com/simonedbarber/qor"
+	"github.com/simonedbarber/roles"
+	"github.com/simonedbarber/worker"
 )
 
 type workerJobLogger struct {

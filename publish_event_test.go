@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jinzhu/gorm"
-	"github.com/qor/publish"
+	"github.com/gorm.io/gorm"
+	"github.com/simonedbarber/publish"
 )
 
 type createResourcePublishInterface struct {

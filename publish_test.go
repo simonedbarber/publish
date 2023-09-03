@@ -3,11 +3,11 @@ package publish_test
 import (
 	"fmt"
 
-	"github.com/jinzhu/gorm"
+	"github.com/gorm.io/gorm"
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/qor/l10n"
-	"github.com/qor/publish"
-	"github.com/qor/qor/test/utils"
+	"github.com/simonedbarber/l10n"
+	"github.com/simonedbarber/publish"
+	"github.com/simonedbarber/qor/test/utils"
 )
 
 var pb *publish.Publish

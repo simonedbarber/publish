@@ -1,6 +1,6 @@
 package publish
 
-import "github.com/jinzhu/gorm"
+import "github.com/gorm.io/gorm"
 
 type publishJoinTableHandler struct {
 	gorm.JoinTableHandler

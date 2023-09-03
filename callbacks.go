@@ -3,7 +3,7 @@ package publish
 import (
 	"fmt"
 
-	"github.com/jinzhu/gorm"
+	"github.com/gorm.io/gorm"
 )
 
 func isProductionModeAndNewScope(scope *gorm.Scope) (isProduction bool, clone *gorm.Scope) {

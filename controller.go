@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
-	"github.com/qor/roles"
-	"github.com/qor/worker"
+	"github.com/simonedbarber/admin"
+	"github.com/simonedbarber/qor"
+	"github.com/simonedbarber/qor/resource"
+	"github.com/simonedbarber/qor/utils"
+	"github.com/simonedbarber/roles"
+	"github.com/simonedbarber/worker"
 )
 
 const (
@@ -115,7 +115,7 @@ func (pc *publishController) PublishOrDiscard(context *admin.Context) {
 // ConfigureQorResourceBeforeInitialize configure qor resource when initialize qor admin
 func (publish *Publish) ConfigureQorResourceBeforeInitialize(res resource.Resourcer) {
 	if res, ok := res.(*admin.Resource); ok {
-		res.GetAdmin().RegisterViewPath("github.com/qor/publish/views")
+		res.GetAdmin().RegisterViewPath("github.com/simonedbarber/publish/views")
 		res.UseTheme("publish")
 
 		if event := res.GetAdmin().GetResource("PublishEvent"); event == nil {
